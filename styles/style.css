@@ -107,11 +107,9 @@ header nav button:hover {
 #why-development {
   width: 1200px;
   margin: 74px auto 90px;
-  border: 1px solid red;
 }
 #why-development .why-development-container {
   width: 946px;
-  border: 1px solid red;
   margin: 80px auto;
 }
 #why-development .why-development-container > h1 {
@@ -128,11 +126,71 @@ header nav button:hover {
   text-align: center;
   line-height: 26px;
 }
-#why-development .why-development-content1{
-    display: flex;
-    margin-top: 48px;
+.why-development-content1,
+.why-development-content2 {
+  display: flex;
+  margin-top: 48px;
 }
-.why-development-content1 .why-development-content-text{
-    
+.why-development-content-text {
+  width: 60%;
+}
+.why-development-content-text > h1 {
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.why-development-content-text > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin: 32px 0px;
+}
+.link {
+  text-decoration: none;
+}
+.link > .btn {
+  font-size: 20px;
+  background: var(--color1);
+  cursor: pointer;
+  padding: 12px 20px;
+  border: 1px solid var(--color1);
+  font-weight: 600;
+  color: #fff;
+  text-align: left;
+  transition: 0.1s;
+}
+.why-development-content-image {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+.why-development-content2 {
+  display: flex;
+}
+.why-development-content2 > .why-development-content-text2 {
+  width: 60%;
+  margin-right: 32px;
+}
+.why-development-content2 > .why-development-content-text2 > h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: var(--color1);
+  text-align: left;
+  opacity: 0.7;
+}
+.why-development-content2 > .why-development-content-text2 > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color1);
+  line-height: 26px;
+  opacity: 0.7;
+  margin: 32px 0px;
+}
+.why-development-content2 > .why-development-content-image2 {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
 }
 /* why-development section style end here */
