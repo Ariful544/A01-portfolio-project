@@ -385,8 +385,11 @@ header nav button:hover {
 .learn-more {
   font-size: 16px;
   color: var(--color1);
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 700;
+}
+.learn-more:hover{
+    text-decoration: underline;
 }
 .html-container,
 .css-container,
