@@ -106,6 +106,8 @@ header nav button:hover {
 /* why-development section style start here */
 #why-development {
   width: 1200px;
+  border-radius: 16px;
+  background:rgba(13, 19, 33, 0.02);
   margin: 74px auto 90px;
 }
 #why-development .why-development-container {
@@ -129,6 +131,8 @@ header nav button:hover {
 .why-development-content1,
 .why-development-content2 {
   display: flex;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
   margin-top: 48px;
 }
 .why-development-content-text {
@@ -194,3 +198,41 @@ header nav button:hover {
   justify-content: flex-end;
 }
 /* why-development section style end here */
+
+/* my-inspiration section style start here */
+#my-inspiration {
+  width: 1200px;
+  margin: 90px auto 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#my-inspiration .my-inspiration-content {
+  width: 750px;
+  margin: 0 auto 60px;
+}
+#my-inspiration .my-inspiration-content > h1 {
+  text-align: center;
+  font-size: 32px;
+  color: var(--color1);
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+#my-inspiration .my-inspiration-content > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color1);
+  line-height: 26px;
+  text-align: center;
+}
+#my-inspiration .youtube{
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+#my-inspiration .youtube>iframe{
+    border-radius: 8px;
+   
+}
+/* my-inspiration section style end here */
