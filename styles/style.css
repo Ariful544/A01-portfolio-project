@@ -195,9 +195,9 @@ header nav button:hover {
 .link {
   text-decoration: none;
 }
-.link > .btn {
+.btn {
   font-size: 20px;
-  background: var(--color1);
+  background:rgba(13, 19, 33, 0.8);
   cursor: pointer;
   padding: 12px 20px;
   border: 1px solid var(--color1);
@@ -205,6 +205,9 @@ header nav button:hover {
   color: #fff;
   text-align: left;
   transition: 0.1s;
+}
+.btn:hover{
+    background:rgba(13, 19, 33, 1);
 }
 .why-development-content-image {
   width: 40%;
