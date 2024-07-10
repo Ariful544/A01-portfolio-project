@@ -84,7 +84,6 @@ header nav button:hover {
 }
 #hero .hero-container > a {
   text-decoration: none;
- 
 }
 #hero .hero-container > a button {
   font-size: 20px;
@@ -94,25 +93,46 @@ header nav button:hover {
   border: 1px solid var(--color1);
   border-radius: 8px;
   font-weight: 600;
-  color:#fff;
+  color: #fff;
   text-align: center;
   transition: 0.1s;
 }
-#hero .hero-container > a button:hover{
-    background: transparent;
-    color:var(--color1);
+#hero .hero-container > a button:hover {
+  background: transparent;
+  color: var(--color1);
 }
 /* header hero section style end here */
 
 /* why-development section style start here */
-#why-development{
-    width: 1200px;
-    margin: 74px auto 90px;
-    border: 1px solid red;
+#why-development {
+  width: 1200px;
+  margin: 74px auto 90px;
+  border: 1px solid red;
 }
-#why-development .why-development-container{
-    width: 946px;
-    border: 1px solid red;
-    margin: 80px auto;
+#why-development .why-development-container {
+  width: 946px;
+  border: 1px solid red;
+  margin: 80px auto;
+}
+#why-development .why-development-container > h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: var(--color1);
+}
+#why-development .why-development-container > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color1);
+  text-align: center;
+  line-height: 26px;
+}
+#why-development .why-development-content1{
+    display: flex;
+    margin-top: 48px;
+}
+.why-development-content1 .why-development-content-text{
+    
 }
 /* why-development section style end here */
