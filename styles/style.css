@@ -374,7 +374,7 @@ header nav button:hover {
 #feedback-me {
   width: 1200px;
   height: 313px;
-  margin: 0 auto;
+  margin: 0 auto 80px;
   border-radius: 16px;
   padding: 64px 70px;
   background: url(../assets/handshake.jpg) no-repeat;
@@ -415,6 +415,9 @@ header nav button:hover {
   border-radius: 8px;
   border: none;
 }
+.feedback-me-container > form input[type="text"]:focus {
+  outline: none;
+}
 .feedback-me-container > form > button {
   padding: 17px 20px;
   background-color: #fff;
@@ -427,16 +430,35 @@ header nav button:hover {
   font-size: 20px;
   border: 1px solid #fff;
 }
-.feedback-me-container > form > button:hover{
- background-color: transparent;
- border: 1px solid #fff;
- transition: 1s;
- color: #fff;
+.feedback-me-container > form > button:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  transition: 1s;
+  color: #fff;
 }
 /* <!-- feedback-me section style end here --> */
 
 /* footer section start here */
-footer{
-    
+#footer {
+  width: 1536px;
+  background: rgba(13, 19, 33, 0.03);
+  height: 100px;
+}
+#footer .footer-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer .footer-container > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color1);
+}
+.footer-container .social-icons {
+  display: flex;
+  gap: 24px;
 }
 /* footer section end here */
